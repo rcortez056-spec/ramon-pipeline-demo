@@ -41,34 +41,23 @@ The system operates as an asynchronous, multi-stage orchestration pipeline where
 ▼
 5. 📊 Analytics Agent ──► (Telemetry & Metrics Tracking)
 
-```
 
----
+Core Stages
+Validate Agent: Inspects input payloads, sanitizes parameters, and verifies data integrity before pipeline execution.
 
-## Core Stages
+Enrich Agent: Conducts real-time context extraction, feature tagging, and sentiment analysis.
 
-* **Validate Agent:** Inspects input payloads, sanitizes parameters, and verifies data integrity before pipeline execution.
-* **Enrich Agent:** Conducts real-time context extraction, feature tagging, and sentiment analysis.
-* **Generate Agent:** Harnesses modular language model layers to synthesize intent-specific outputs dynamically.
-* **Deliver Agent:** Manages secure downstream dispatch and API communication routing.
-* **Analytics Agent:** Captures performance metrics, execution latency, and telemetry data for auditing.
+Generate Agent: Harnesses modular language model layers to synthesize intent-specific outputs dynamically.
 
----
+Deliver Agent: Manages secure downstream dispatch and API communication routing.
 
-## Infrastructure & Enterprise Integration
+Analytics Agent: Captures performance metrics, execution latency, and telemetry data for auditing.
 
-* **Frontend Interface:** High-performance responsive dashboard hosted on **Netlify** (`https://ramon-pipeline-demo.netlify.app`).
-* **Workflow Engine:** Built using low-code/no-code architectural patterns for rapid iteration, zero-downtime scalability, and modular handoffs.
-* **Version Control & CI/CD:** Fully version-controlled via **GitHub** with automated deployment pipelines.
+Quick Start & Verification
+Access the live interface at ramon-pipeline-demo.netlify.app.
 
----
+Input a test payload into the Review Input panel.
 
-## Quick Start & Verification
-
-1. Access the live interface at [ramon-pipeline-demo.netlify.app](https://ramon-pipeline-demo.netlify.app).
-2. Input a test payload into the **Review Input** panel.
-3. Monitor real-time execution flow progression across all five specialized agent nodes.
-
-```
+Monitor real-time execution flow progression across all five specialized agent nodes.
 
 
