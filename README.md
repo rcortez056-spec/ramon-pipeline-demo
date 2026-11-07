@@ -65,7 +65,7 @@ The system operates as an asynchronous, multi-stage orchestration pipeline where
 
 ## Quick Start & Verification
 
-1. Access the live interface at [ramon-pipeline-demo.netlify.app](https://ramon-pipeline-demo.netlify.app).
+1. 1. Access the live interface at [ramon-pipeline-demo.netlify.app](https://ramon-pipeline-demo.netlify.app).
 2. Input a test payload into the **Review Input** panel.
 3. Monitor real-time execution flow progression across all five specialized agent nodes.
 
