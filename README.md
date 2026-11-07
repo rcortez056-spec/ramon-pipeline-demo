@@ -71,4 +71,4 @@ The system operates as an asynchronous, multi-stage orchestration pipeline where
 
 ```
 
-Once pasted, click the blue **Commit changes...** button at the top right of the editor to lock it in!
+
